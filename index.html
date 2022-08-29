@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Password Generator</title>
+</head>
+<body>
+   <div class="main">
+    <img src="sun.png" id="icon">
+    <h1>Generate a</h1>
+    <h2>very strong password.</h2>
+    <h4>Never worry about your accounts being hacked again.</h4>
+    <button type="button" class="generator" onclick="renderPassword()">Generate Password</button>
+    <div class="stageHero">
+        <div class="firstStage">
+            <div id="stage-one">
+                <p id="password-1">Password will appear here...</p>
+            </div>
+            <div>
+                <button type="button" class="btnOne">Copy Password</button>
+            </div>
+        </div>
+        <div class="secondStage">
+            <div id="stage-two">
+                <p id="password-2">Password will appear here...</p>
+            </div>
+            <div>
+                <button type="button" class="btnTwo" onclick="copyPasswordTwo()">Copy Password</button>
+            </div>
+        </div>
+    </div>
+   </div>
+</body>
+<script src="index.js"></script>
+</html>

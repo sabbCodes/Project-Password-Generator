@@ -1,0 +1,147 @@
+body{
+    background-color: var(--primary-background-color);
+    border: 15px solid black;
+    height: 630px;
+    margin: 0;
+    padding: 5px;
+    color: var(--primary-text-color);
+}
+
+#icon{
+    height: 28px;
+    width: 28px;
+    cursor: pointer;
+    position: absolute;
+    top: 4%;
+    right: 5%;
+}
+
+:root{
+    --primary-background-color: #030424;
+    --primary-text-color: #CAF0F8;
+    --primary-h4-color: #DEE2E6;
+    --primary-h1-color: #F6FFF8;
+    --primary-h2-color: #41EAD4;
+    --primary-generator-color: #0ff400;
+    --primary-box-color: #F0F4EF;
+    --primary-stage-color: #8008c5;
+    --primary-btn-color: #1C2541;
+    --primary-shadow-color: #ebf1fd;
+}
+
+.light-theme{
+    --primary-background-color: #EDF2FA;
+    --primary-text-color: #2B2D42;
+    --primary-h4-color: #2B2D42;
+    --primary-h1-color: #003049;
+    --primary-h2-color: #00F5D4;
+    --primary-generator-color: #3A0CA3;
+    --primary-box-color: #03295c;
+    --primary-stage-color: #6C757D;
+    --primary-btn-color: #FF595E;
+    --primary-shadow-color: #1B263B;
+}
+
+.main{
+    max-width: 80%;
+    padding-right: 50px;
+}
+
+h1{
+    color: var(--primary-h1-color);
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    color: var(--primary-h2-color);
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    font-family: sans-serif;
+}
+
+h4{
+    color: var(--primary-h4-color);
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.generator{
+    position: absolute;
+    top: 41%;
+    left: 10%;
+    width: 160px;
+    height: 30px;
+    background-color: var(--primary-generator-color);
+    border: none;
+    border-radius: 3px;
+    color: aliceblue;
+    box-shadow: 4px 4px 4px var(--primary-box-color);
+}
+
+.stageHero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+#stage-one{
+    background-color: var(--primary-stage-color);
+    border: none;
+    border-radius: 5px;
+    width: 205px;
+    height: 30px;
+    margin: 0 8px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 8px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#stage-two{
+    background-color: var(--primary-stage-color);
+    border: none;
+    border-radius: 5px;
+    width: 205px;
+    height: 30px;
+    margin:  -6px  0 0 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 8px;
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+.btnOne{
+    background-color: var(--primary-btn-color);
+    color: aliceblue;
+    margin: 7px 0;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 4px 4px 4px var(--primary-shadow-color);
+}
+
+.btnTwo{
+    background-color: var(--primary-btn-color);
+    color: aliceblue;
+    margin: 7px 0 0 8px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 4px 4px 4px var(--primary-shadow-color);
+}
